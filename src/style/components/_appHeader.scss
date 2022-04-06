@@ -1,0 +1,18 @@
+.header-section {
+    align-items: center;
+    margin-top: 40px;
+    .logo {
+        width: rem(176px);
+        height: rem(51px);
+        margin-right: rem(16px);
+        font-family: raleway;
+    }
+    .nav-bar {
+        li {
+            list-style: none;
+            font-size: rem(16px);
+            margin-left: rem(30px);
+            font-family: raleway;
+        }
+    }
+}

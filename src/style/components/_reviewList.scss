@@ -1,0 +1,36 @@
+    .review-section {
+        max-width: rem(1180px);
+        width: 100%;
+        max-height: rem(273px);
+        height: 100%;
+        justify-content: space-between;
+        .review {
+            padding: 30px;
+            background-color: $clr4;
+            max-width: rem(360px);
+            p {
+                font-size: rem(14px);
+                font-family: open-sans-regular;
+                max-width: rem(309px);
+                height: rem(82px);
+            }
+            .lower-section {
+                align-items: center;
+                max-width: rem(116px);
+                max-height: rem(26px);
+                .img {
+                    width: rem(24px);
+                    height: rem(24px);
+                    border-radius: 50%;
+                }
+                .right-lower-section {
+                    h2 {
+                        font-size: rem(10px);
+                    }
+                    h3 {
+                        font-size: rem(7px);
+                    }
+                }
+            }
+        }
+    }

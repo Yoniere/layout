@@ -1,0 +1,16 @@
+.footer {
+    .left-section {
+        max-width: rem(339px);
+    }
+    p {
+        font-size: rem(16px);
+    }
+    .location-section {
+        width: 24px;
+        height: 24px;
+        .location {
+            width: rem(12px);
+            height: 18px;
+        }
+    }
+}

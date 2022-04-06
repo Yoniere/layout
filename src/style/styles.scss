@@ -1,0 +1,19 @@
+//SETUP
+@import "./setup/typography";
+@import "./setup/variables";
+@import "./setup/functions";
+@import "./setup/mixins";
+//BASICS
+@import "./basics/helpers";
+@import "./basics/base";
+@import "./basics/layout";
+//COMPONENTS 
+@import "./components/AppFooter";
+@import "./components/appHeader";
+@import "./components/benefitsList";
+@import "./components/benefitsPreview";
+@import "./components/getStarted";
+@import "./components/illustration";
+@import "./components/reviewList";
+@import "./components/reviewPreview";
+@import "./components/signUp";

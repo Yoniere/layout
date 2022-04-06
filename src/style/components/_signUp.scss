@@ -1,0 +1,41 @@
+.signup {
+    max-width: rem(863px);
+    max-height: rem(275px);
+    background-color: $clr1;
+    margin: 0 auto;
+    .signup-second-section {
+        max-width: rem(709px);
+        height: rem(186px);
+        align-items: center;
+        margin-inline: auto;
+        .upper-section {
+            max-width: rem (673px);
+            max-height: rem (98px);
+            align-items: center;
+            h1 {
+                font-size: rem(32px);
+                font-weight: bold;
+                font-family: raleway;
+                margin: 0px;
+            }
+        }
+        .lower-section {
+            justify-content: space-between;
+            align-items: center;
+            input {
+                max-width: rem(480px);
+                height: 48px;
+                width: 100%;
+                // height: 100%;
+                border-radius: 32px;
+            }
+            button {
+                max-width: rem(200px);
+                height: rem(48px);
+                width: 100%;
+                // height: 100%;
+                border-radius: 32px;
+            }
+        }
+    }
+}
